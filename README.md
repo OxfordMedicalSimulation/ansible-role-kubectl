@@ -83,6 +83,3 @@ kubectl_projects:
 
 [BSD 3-clause](LICENSE.txt)
 
-## Author Information
-
-[Xan Manning](https://xanmanning.co.uk/)
