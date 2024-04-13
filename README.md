@@ -44,7 +44,7 @@ Example playbook for installing to single user:
 ```yaml
 - hosts: control_hosts
   roles:
-     - { role: xanmanning.kubectl, kubectl_version: 1.17.0 }
+     - { role: oxfordmedicalsimulation.kubectl, kubectl_version: 1.17.0 }
 ```
 
 Example playbook for installing the latest kubectl version globally:
@@ -58,7 +58,7 @@ Example playbook for installing the latest kubectl version globally:
     kubectl_install_dir: /opt/kubectl/bin
     kubectl_projects_dir: /opt/kubectl/projects
   roles:
-    - role: xanmanning.kubectl
+    - role: oxfordmedicalsimulation.kubectl
 ```
 
 ### Note about `kubectl_projects`
